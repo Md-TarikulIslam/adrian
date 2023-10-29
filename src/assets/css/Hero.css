@@ -1,0 +1,36 @@
+.main-hero{
+    position: relative;
+    border: 1px solid red;
+
+}
+
+.mySwiper{
+    position: relative;
+}
+.hero-image-div{
+position: relative;
+}
+.hero-p{
+    position: absolute;
+    top: 300px;
+    right: 200px;
+}
+.hero-header{
+    font-size: 20px;
+    color: #55595d;
+    margin: 0;
+}
+.hero-title, .hero-desc{
+    
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+    
+}
+.hero-title{
+    color: #f9725d;
+
+}
+.hero-desc{
+    color:black
+}
