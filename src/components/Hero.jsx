@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 import '../assets/css/Hero.css';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 const allData = [
     {
@@ -48,15 +48,12 @@ const Hero = () => {
                 slidesPerView={1}
                 spaceBetween={30}
                 loop={true}
-                pagination={{
-                    clickable: true,
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
                 }}
-                // autoplay={{
-                //     delay: 5500,
-                //     disableOnInteraction: false,
-                // }}
                 navigation={true}
-                modules={[Pagination, Navigation]}
+                modules={[Autoplay, Navigation]}
                 className="mySwiper"
             >
                 <div>
@@ -73,6 +70,7 @@ const Hero = () => {
                                                 <p className='hero-header'>{data.header}</p>
                                                 <p className='hero-title'>  {data.title}</p>
                                                 <p className='hero-desc'>{data.desc}</p>
+                                                <button className='shop-now-btn'>Shop Now</button>
                                             </div>
 
                                         </div>

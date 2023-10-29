@@ -78,12 +78,14 @@
 
     .menu-button {
         display: block;
+        border: none;
+        background-color: transparent;
     }
 
     .navbar-menu.active {
         display: flex;
         flex-direction: column;
-
+        z-index: 100;
         position: absolute;
         top: 30px;
         right: 0;
