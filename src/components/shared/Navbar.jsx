@@ -9,25 +9,6 @@ const Navbar = () => {
         setMenuOpen(!menuOpen);
     };
     return (
-        // <div className='navbar'>
-        //     <div className='nav-area'>
-        //         <div className='nav-flex'>
-        //             <div>
-        //                 <img src={logo} alt="" />
-        //             </div>
-        //             <div>
-        //                 <ul className='ul'>
-        //                     <li>Home</li>
-        //                     <li>Home</li>
-        //                     <li>Home</li>
-        //                     <li>Home</li>
-        //                     <li>Home</li>
-        //                     <li>Home</li>
-        //                 </ul>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
         <div>
             <nav className="navbar">
                 <div className="navbar-container">

@@ -1,32 +1,4 @@
-/* .navbar {
-    border: 1px solid red;
-}
 
-.nav-area {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-.nav-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    list-style: none;
-}
-
-@media only screen and (max-width:680px) {
-  .ul{
-    display: none;
-  }  
-} */
-
-/* Navbar.css */
 .navbar {
     background-color: white;
     color: #000;
