@@ -3,7 +3,7 @@ import img from '../assets/images/about-us/1.webp'
 import '../assets/css/AboutUs.css'
 const AboutUs = () => {
     return (
-        <div className='max-area'>
+        <div className='max-area' id='about'>
             <p className='about'>About us</p>
 
             <div className='flex'>

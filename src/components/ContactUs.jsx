@@ -2,7 +2,7 @@ import '../assets/css/ContactUs.css'
 import { FaLocationArrow, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 const ContactUs = () => {
     return (
-        <div className="max-area">
+        <div className="max-area" id='contact'>
             <p className='about'>Contact us</p>
             <div className="flex-2">
                 <div className="flex-1">

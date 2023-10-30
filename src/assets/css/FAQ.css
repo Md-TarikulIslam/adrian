@@ -1,0 +1,51 @@
+
+    .accordion {
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+
+    .accordion-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f0f0f0;
+      padding: 0px 30px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .arrow {
+      transition: transform 0.3s;
+    }
+
+    .arrow.open {
+      transform: rotate(180deg);
+    }
+
+    .accordion-content {
+      padding: 30px;
+      font-size: 10px;
+    }
+  
+    
+/* Mobile devices  */
+
+@media (max-width: 640px) {
+   .ac-area{
+    padding: 0 20px;
+   }
+}
+
+/* Tab  */
+@media (min-width: 641px) and (max-width:768px){
+    .ac-area{
+        padding: 0 20px;
+       }
+}
+
+/* Big screen devices */
+@media (min-width: 769px) and (max-width:1024px){
+    .ac-area{
+        padding: 0 20px;
+       }
+}

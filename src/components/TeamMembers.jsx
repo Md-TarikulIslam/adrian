@@ -33,7 +33,7 @@ const allData =[
 ]
     
   return (
-    <div className="max-area">
+    <div className="max-area" id='team'>
             <p className='about'>Team members</p>
                 <div className='grid-2'>
                     {
