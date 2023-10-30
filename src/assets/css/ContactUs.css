@@ -1,0 +1,78 @@
+.flex-2{
+    display: flex;
+    gap: 50px;
+}
+.company, .corporate{
+    font-weight: 600;
+}
+.company{
+    font-size: 22px;
+}
+.lorem{
+    font-size: 12px;
+    text-align: justify;
+}
+.mini-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.corporate{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.mail{
+    text-decoration: none;
+    color: black;
+}
+.mail:hover{
+    color: blue;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    padding: 15px;
+    background-color: #f9f9f9;
+   border: none;
+}
+.mail{
+    height: 60px;
+}
+.send-btn{
+    padding: 15px;
+    background-color: #fb5c42;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.send-btn:hover{
+    background-color: #fb4e34;
+}
+
+
+/* Mobile devices  */
+
+@media (max-width: 640px) {
+   .flex-2{
+    flex-direction: column;
+    padding: 20px;
+   }
+}
+
+/* Tab  */
+@media (min-width: 641px) and (max-width:768px){
+    .flex-2{
+        flex-direction: column;
+        padding: 20px;
+       }
+}
+
+/* Big screen devices */
+@media (min-width: 769px) and (max-width:1024px){
+    .flex-2{
+        padding: 20px;
+       }
+}
