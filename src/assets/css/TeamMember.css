@@ -1,0 +1,57 @@
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+
+
+}
+.mar{
+    margin: 0 20px;
+}
+.team-img{
+    width: 290px;
+    margin: 0 auto;
+}
+.team-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.team-designation{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+/* Mobile devices  */
+
+@media (max-width: 640px) {
+   .grid-2{
+    grid-template-columns: repeat(1,1fr);
+    gap: 40px;
+   }
+   .team-img{
+    width: 100%;
+   
+   }
+  
+
+}
+
+/* Tab  */
+@media (min-width: 641px) and (max-width:768px){
+    .grid-2{
+        grid-template-columns: repeat(2,1fr);
+       }
+       .team-img{
+        width: 100%;
+       }
+}
+
+/* Big screen devices */
+@media (min-width: 769px) and (max-width:1024px){
+    .grid-2{
+        grid-template-columns: repeat(2,1fr);
+       }
+}
