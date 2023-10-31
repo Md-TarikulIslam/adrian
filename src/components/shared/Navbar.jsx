@@ -8,7 +8,6 @@ import { useCount } from './Counter';
 const Navbar = () => {
 
     const { count } = useCount()
-    console.log(count)
 
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -20,7 +19,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="navbar-container">
                     <div className="navbar-logo">
-                        <img src={logo} alt="" />
+                        <a href="#"><img src={logo} alt="" /></a>
                     </div>
                     <button className="menu-button" onClick={toggleMenu}>
                         {menuOpen ? "X" : <FaBars />}

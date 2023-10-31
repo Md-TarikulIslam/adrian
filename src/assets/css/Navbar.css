@@ -49,6 +49,7 @@
 @media (max-width: 768px) {
     .navbar-menu {
         display: none;
+        gap: 0;
     }
 
     .menu-button {
@@ -64,18 +65,27 @@
         position: absolute;
         top: 30px;
         right: 0;
-        width: 40%;
+        width: 30%;
         border-radius: 20px;
         box-shadow: 1px 1px 1px 1px gray;
         background-color: white;
-        padding: 20px;
+        padding: 10px 20px;
+        
+        
 
     }
 
     .navbar-menu.active li {
-        padding: 5px;
+       
         text-align: center;
+        padding: 10px;
+        margin: 0;
 
+    }
+    .navbar-menu.active li:hover{
+        background-color: grey;
+        border-radius: 10px;
+        
     }
     .counter{
         position: absolute;

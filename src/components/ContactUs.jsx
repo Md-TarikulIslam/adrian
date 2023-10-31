@@ -5,7 +5,7 @@ const ContactUs = () => {
     return (
         <div className="max-area" id='contact'>
             <p className='about'>Contact us</p>
-         <Fade direction='left'>   <div className="flex-2">
+            <Fade direction='left'>   <div className="flex-2">
                 <div className="flex-1">
                     <div>
                         <p className="company">Our Company</p>
@@ -28,12 +28,12 @@ const ContactUs = () => {
                     </div>
                 </div>
                 <div className="flex-1">
-                   <div className='input-div'>
-                   <input className='input' type="text" name="" id="" placeholder='Enter your name'/>
-                    <input className='input' type="text" name="" id="" placeholder='Enter your mail'/>
-                    <input className='input mail' type="text" name="" id="" placeholder='Enter your message'/>
-                    <button className='send-btn'>Send message</button>
-                   </div>
+                    <div className='input-div'>
+                        <input className='input' type="text" name="" id="" placeholder='Enter your name' />
+                        <input className='input' type="text" name="" id="" placeholder='Enter your mail' />
+                        <input className='input mail' type="text" name="" id="" placeholder='Enter your message' />
+                        <button className='send-btn'>Send message</button>
+                    </div>
                 </div>
             </div></Fade>
 
