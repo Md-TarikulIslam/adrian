@@ -1,10 +1,11 @@
+import { Fade } from 'react-awesome-reveal';
 import '../assets/css/ContactUs.css'
 import { FaLocationArrow, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 const ContactUs = () => {
     return (
         <div className="max-area" id='contact'>
             <p className='about'>Contact us</p>
-            <div className="flex-2">
+         <Fade direction='left'>   <div className="flex-2">
                 <div className="flex-1">
                     <div>
                         <p className="company">Our Company</p>
@@ -34,7 +35,7 @@ const ContactUs = () => {
                     <button className='send-btn'>Send message</button>
                    </div>
                 </div>
-            </div>
+            </div></Fade>
 
         </div>
     )

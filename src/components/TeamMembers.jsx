@@ -4,6 +4,7 @@ import img3 from '../assets/images/team/3.jpg'
 import img4 from '../assets/images/team/4.jpg'
 
 import '../assets/css/TeamMember.css'
+import { AttentionSeeker } from 'react-awesome-reveal'
 export const TeamMembers = () => {
 const allData =[
     {
@@ -35,7 +36,8 @@ const allData =[
   return (
     <div className="max-area" id='team'>
             <p className='about'>Team members</p>
-                <div className='grid-2'>
+              <AttentionSeeker effect='tada'>
+              <div className='grid-2'>
                     {
                         allData.map((data)=>{
                             return(
@@ -48,6 +50,7 @@ const allData =[
                         })
                     }
                 </div>
+              </AttentionSeeker>
         </div>
   )
 }

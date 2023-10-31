@@ -3,6 +3,7 @@ import img2 from '../assets/images/new-arrival/2.jpg'
 import img3 from '../assets/images/new-arrival/3.jpg'
 import img4 from '../assets/images/new-arrival/4.jpg'
 import '../assets/css/NewArrival.css'
+import { Fade, Slide } from 'react-awesome-reveal'
 const NewArrival = () => {
     const allData = [
         {
@@ -33,6 +34,7 @@ const NewArrival = () => {
     return (
         <div className="max-area">
             <p className='about'>New arrival</p>
+            <Slide>
             <div className='grid-2'>
                 {
                     allData.map((data) => {
@@ -46,6 +48,7 @@ const NewArrival = () => {
                     })
                 }
             </div>
+            </Slide>
         </div>
     )
 }
