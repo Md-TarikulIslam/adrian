@@ -73,7 +73,7 @@ const BestSelling = () => {
             <p className='about'>Best selling</p>
             <div className='flex'>
                 <div className='flex-1'>
-                    <img src={main} alt="" />
+                    <img className='main-img' src={main} alt="" />
                 </div>
                 <div className='grid-2 flex-1'>
                     {
