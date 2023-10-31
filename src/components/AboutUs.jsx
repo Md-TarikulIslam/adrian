@@ -1,7 +1,7 @@
 import img from '../assets/images/about-us/1.webp'
 
 import '../assets/css/AboutUs.css'
-import { AttentionSeeker, Zoom } from 'react-awesome-reveal'
+import {  Zoom } from 'react-awesome-reveal'
 const AboutUs = () => {
     return (
         <div className='max-area' id='about'>

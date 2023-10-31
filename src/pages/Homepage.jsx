@@ -1,4 +1,5 @@
 import AboutUs from "../components/AboutUs"
+import BestSelling from "../components/BestSelling"
 import Category from "../components/Category"
 import ContactUs from "../components/ContactUs"
 import FAQ from "../components/FAQ"
@@ -12,6 +13,7 @@ const Homepage = () => {
             <Hero />
             <Category />
             <NewArrival />
+            <BestSelling />
             <AboutUs />
             <TeamMembers />
             <FAQ />

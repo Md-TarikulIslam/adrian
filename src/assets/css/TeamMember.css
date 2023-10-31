@@ -36,6 +36,9 @@
         width: 100%;
 
     }
+    .team-designation, .team-name{
+        margin-left: 15px;
+    }
 
 
 }
@@ -48,6 +51,9 @@
 
     .team-img {
         width: 100%;
+    }
+    .team-designation, .team-name{
+        margin-left: 15px;
     }
 }
 

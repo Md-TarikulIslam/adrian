@@ -1,8 +1,15 @@
 import logo from '../../assets/images/logo/logo.png'
 import '../../assets/css/Navbar.css'
-import { useState } from 'react';
-import { FaBars } from "react-icons/fa";
+import {  useState } from 'react';
+import { FaBars, FaShoppingCart } from "react-icons/fa";
+
+import { useCount } from './Counter';
+
 const Navbar = () => {
+
+    const { count } = useCount()
+    console.log(count)
+
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -25,10 +32,14 @@ const Navbar = () => {
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
+                    <p className='counter'><FaShoppingCart /> {count}</p>
                 </div>
             </nav>
         </div>
+
     )
 }
 
 export default Navbar
+
+

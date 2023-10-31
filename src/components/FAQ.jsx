@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../assets/css/FAQ.css'
+import { Fade } from 'react-awesome-reveal';
 
 const FAQ = () => {
     const allData = [
@@ -37,13 +38,15 @@ const FAQ = () => {
                 {allData.map((data, index) => {
                     return (
                         <div key={data.id}>
-                            <div className="accordion">
-                                <div className="accordion-header" onClick={() => toggleAccordion(index)}>
-                                    <h3>{data.title}</h3>
-                                    <div className={`arrow ${isOpenArray[index] ? 'open' : ''}`}>&#9660;</div>
+                            <Fade>
+                                <div className="accordion">
+                                    <div className="accordion-header" onClick={() => toggleAccordion(index)}>
+                                        <h3>{data.title}</h3>
+                                        <div className={`arrow ${isOpenArray[index] ? 'open' : ''}`}>&#9660;</div>
+                                    </div>
+                                    {isOpenArray[index] && <div className="accordion-content">{data.content}</div>}
                                 </div>
-                                {isOpenArray[index] && <div className="accordion-content">{data.content}</div>}
-                            </div>
+                            </Fade>
                         </div>
                     );
                 })}

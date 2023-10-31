@@ -1,0 +1,22 @@
+.add-btn,
+.remove-btn {
+    background-color: #fb5c42;
+    width: 30px;
+    border: none;
+}
+
+.add-text {
+    font-size: 10px;
+    padding: 0 10px;
+}
+
+.cart-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-area {
+    border: 1px dashed gray;
+    margin: 10px;
+    padding: 5px;
+}

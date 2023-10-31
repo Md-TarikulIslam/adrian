@@ -77,4 +77,9 @@
         text-align: center;
 
     }
+    .counter{
+        position: absolute;
+        top: 0px;
+        left: 250px;
+    }
 }
